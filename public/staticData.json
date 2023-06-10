@@ -1,0 +1,249 @@
+    [
+        {
+            "strike": "17700",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "17750",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "17800",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "17850",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "17900",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "17950",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18000",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18050",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18100",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18150",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18200",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18250",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        },
+        {
+            "strike": "18300",
+            "callOption" : {
+                "OI Buildup": "Long buildup",
+                "IV": "9.4",
+                "OI": "35K",
+                "Volume": "1.25K",
+                "Chng%": "+123.5%",
+                "LTP": "1,245.3"   
+            },
+            "putOption" : {
+                "OI Buildup": "Long unwiding",
+                "IV": "9.2",
+                "OI": "1.4K",
+                "Volume": "982",
+                "Chng%": "-44.2%",
+                "LTP": "15.3"   
+            }
+        }
+    ]
