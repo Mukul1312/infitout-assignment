@@ -33,7 +33,7 @@ const IndiciesOverview = () => {
   const [isFilterModalOpen, setIsFilterModalOpen] = React.useState(false);
 
   return (
-    <div className="pt-[32px] px-[3rem] flex items-start justify-around">
+    <div className="pt-[32px] flex items-start justify-between">
       <InputElement label={"Scrip"} options={"NIFTY"} />
       <InputElement label={"Exp"} options={"18 May 2023"} />
       <Prize typeOfPrice={"Spot"} points={"18,245.3"} change={"0.35%"} />
@@ -47,10 +47,12 @@ const IndiciesOverview = () => {
         )
       }
       <div>
-        <div className="">
-          <img className="inline-block" src={"Configure.png"} />
-          <span onClick={() => setIsFilterModalOpen(true)} className="mr-[27px]">Filters</span>
-          <Modal handleClose={() => setIsFilterModalOpen(false)} isOpen={isFilterModalOpen} modalHeight="306px" modalWidth="265px">
+        <div className="flex">
+          <div onClick={() => setIsFilterModalOpen(true)} className="cursor-pointer" >
+            <img className="inline-block" src={"Configure.png"} />
+            <span className="mr-[27px]">Filters</span>
+          </div>
+          <Modal handleClose={() => setIsFilterModalOpen(false)} isOpen={isFilterModalOpen} modalHeight="306px" modalWidth="265px" posLeft="69%" posTop="20%" >
             <FilterModalContent handleClose={() => setIsFilterModalOpen(false)} />
           </Modal>
           <button onClick={() => setIsBasketModalOpen(true)} className="rounded-none bg-[#2C57F5] w-[105px] h-[30px] text-white">Basket</button>

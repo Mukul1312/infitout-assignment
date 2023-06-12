@@ -88,7 +88,7 @@ const OptionChainingPage = () => {
   );
 
   return (
-    <div className="OptionChaining bg-[#FBFBFB]">
+    <div className="OptionChaining bg-[#FBFBFB] px-[88px]">
       <IndiciesOverview />
       {!data.length ? (
         "Loading..."
