@@ -6,10 +6,10 @@ import OptionChaining from './Pages';
 function App() {
 
   return (
-    <>
+    <div className=''>
       <Header />
       <OptionChaining />
-    </>
+    </div>
   )
 }
 
