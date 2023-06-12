@@ -18,10 +18,10 @@ const OptionChainTable = ({ columns, data }) => {
         styles = '';
       }
       else if(!header.id.includes("strike")){
-        styles = 'bg-[#E8EFFB] px-[38px] py-[10px] satoshi-font text-center border-b-[1px] border-[#99B8ED]';
+        styles = 'bg-[#E8EFFB] px-[38px] py-[10px] satoshi-font text-[14px] text-center border-b-[1px] border-[#99B8ED]';
       }
       else if(header.depth === 2 && header.id.includes("strike")){
-        styles = 'bg-[#EFE8FB] px-[33px] py-[10px] satoshi-font text-center border-x-[1px] border-b-[1px] border-[#D5BCFE]';
+        styles = 'bg-[#EFE8FB] px-[33px] py-[10px] satoshi-font text-[14px] text-center border-x-[1px] border-b-[1px] border-[#D5BCFE]';
       }
       return styles;
   }

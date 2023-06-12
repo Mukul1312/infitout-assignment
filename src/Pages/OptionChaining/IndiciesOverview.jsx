@@ -1,28 +1,36 @@
 import React from "react";
+import Modal from "../../components/Modal";
+import BasketModalContent from "./BasketModalContent";
+import FilterModalContent from "./FilterModalContent";
+
+
+const optionIndicator = [
+  {
+    indicatorType: "Max pain",
+    image: null,
+    value: "18,200",
+  },
+  {
+    indicatorType: "PCR",
+    image: null,
+    value: "0.92",
+  },
+  {
+    indicatorType: "Support 1",
+    image: "ArrowSelect.png",
+    value: "18100",
+  },
+  {
+    indicatorType: "Resistance 1",
+    image: "ArrowSelect.png",
+    value: "18500",
+  },
+];
+
 
 const IndiciesOverview = () => {
-  const optionIndicator = [
-    {
-      indicatorType: "Max pain",
-      image: null,
-      value: "18,200",
-    },
-    {
-      indicatorType: "PCR",
-      image: null,
-      value: "0.92",
-    },
-    {
-      indicatorType: "Support 1",
-      image: "ArrowSelect.png",
-      value: "18100",
-    },
-    {
-      indicatorType: "Resistance 1",
-      image: "ArrowSelect.png",
-      value: "18500",
-    },
-  ];
+  const [isBasketModalOpen, setIsBasketModalOpen] = React.useState(false);
+  const [isFilterModalOpen, setIsFilterModalOpen] = React.useState(false);
 
   return (
     <div className="pt-[32px] px-[3rem] flex items-start justify-around">
@@ -41,8 +49,14 @@ const IndiciesOverview = () => {
       <div>
         <div className="">
           <img className="inline-block" src={"Configure.png"} />
-          <span className="mr-[27px]">Filters</span>
-          <button className="rounded-none bg-[#2C57F5] w-[105px] h-[30px] text-white">Basket</button>
+          <span onClick={() => setIsFilterModalOpen(true)} className="mr-[27px]">Filters</span>
+          <Modal handleClose={() => setIsFilterModalOpen(false)} isOpen={isFilterModalOpen} modalHeight="306px" modalWidth="265px">
+            <FilterModalContent handleClose={() => setIsFilterModalOpen(false)} />
+          </Modal>
+          <button onClick={() => setIsBasketModalOpen(true)} className="rounded-none bg-[#2C57F5] w-[105px] h-[30px] text-white">Basket</button>
+          <Modal handleClose={() => setIsBasketModalOpen(false)} isOpen={isBasketModalOpen} modalHeight="382px" modalWidth="618px">
+            <BasketModalContent handleClose={() => setIsBasketModalOpen(false)} />
+          </Modal>
         </div>
         <div className="mt-[23px]">
           <button className="rounded-md bg-[#2C57F5] w-[80px] h-[30px] mr-[8px] text-white">LTP</button>
@@ -58,10 +72,10 @@ export default IndiciesOverview;
 const InputElement = ({ label, options }) => {
   return (
     <div className="w-[135px] h-[36px] relative mr-[12px]">
-      <span className="absolute -top-[8px] left-[30%] bg-[#fff] p-x-0 p-y-[8px] font-medium text-[#8F8F8F] -translate-x-1/2 ">
+      <span className="absolute -top-[8px] left-[30%] bg-[#fff] p-x-0 p-y-[8px] font-medium text-[#8F8F8F] text-[10px] -translate-x-1/2 ">
         {label}
       </span>
-      <select className="w-full h-full bg-white border-[1px] border-[#c2c2c2]">
+      <select className="w-full h-full bg-white border-[1px] border-[#c2c2c2] satoshi-font text-[14px]">
         <option value="option1">{options}</option>
         {/* <option value="option2">NIFT</option>
       <option value="option3">Option 3</option> */}
