@@ -1,3 +1,7 @@
+import React from "react";
+import useFetch from "../../hooks/useFetch";
+import BasketTable from "./BasketTable";
+
 const basketData = [
   {
     indicator: "Max profit",
@@ -21,7 +25,59 @@ const basketData = [
   },
 ];
 
+
 const BasketModalContent = ({ handleClose }) => {
+    const { data, loading } = useFetch("BasketStaticData.json");
+
+    const columns = React.useMemo(() => [
+      {
+        accessorkey: "Instrument",
+        header: "Instrument",
+        id: "Instrument",
+      },
+      {
+        accessorkey: "B/S",
+        header: "B/S",
+        id: "B/S",
+      },
+      {
+        accessorkey: "Type",
+        header: "Type",
+        id: "Type",
+      },
+      {
+        accessorkey: "Qty",
+        header: "Qty",
+        id: "Qty",
+      },
+      {
+        accessorkey: "Price",
+        header: "Price",
+        id: "Price",
+      },
+      {
+        accessorkey: "Trigger",
+        header: "Trigger",
+        id: "Trigger",
+      },
+      {
+        accessorkey: "SL",
+        header: "SL",
+        id: "SL",
+      },
+      {
+        accessorkey: "Tgt",
+        header: "Tgt",
+        id: "Tgt",
+      },
+      {
+        accessorkey: "delete",
+        header: "delete",
+        id: "delete",
+      }
+    ])
+    
+
   return (
     <div className="">
       <div className="flex justify-around items-center bg-[#2C57F5] h-[58px] ">
@@ -38,7 +94,9 @@ const BasketModalContent = ({ handleClose }) => {
           </div>
         ))}
       </div>
-      <div className="h-[260px]">hi</div>
+      <div className="h-[260px]">
+        {loading ? <p>Loading...</p> : <BasketTable columns={columns} data={data} />}
+      </div>
       <div className="flex items-center h-[64px] border-t-[1px] border-[#D3D3D3]">
         <div className="ms-[20px]">
           <div>

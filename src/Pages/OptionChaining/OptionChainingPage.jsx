@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import IndiciesOverview from "./IndiciesOverview";
 import OptionChainTable from "./OptionChainTable";
-
-// import {  createColumnHelper } from "@tanstack/react-table";
+import useFetch from "../../hooks/useFetch";
 
 const OptionChainingPage = () => {
-  const [data, setData] = React.useState([]);
+  const { data, loading } = useFetch("staticData.json");
 
   const columns = React.useMemo(() => [
     {
@@ -37,6 +36,16 @@ const OptionChainingPage = () => {
           accessorKey: "callOption.LTP",
           header: "LTP",
         },
+        {
+          accessorKey: "callOption.Buy",
+          header: "",
+          cell: props => props.getValue() ? <img className="inline" src="Buy.png" />  : "",
+        },
+        {
+          accessorKey: "callOption.Sell",
+          header: "",
+          cell: props => props.getValue() ? <img className="inline" src="Sell.png" />  : "",
+        },
       ],
     },
     {
@@ -48,6 +57,16 @@ const OptionChainingPage = () => {
       header: "PUTS",
       // Second group columns
       columns: [
+        {
+          accessorKey: "putOption.Buy",
+          header: "",
+          cell: props => props.getValue() ? <img className="inline" src="Buy.png" />  : "",
+        },
+        {
+          accessorKey: "putOption.Sell",
+          header: "",
+          cell: props => props.getValue() ? <img className="inline" src="Sell.png" />  : "",
+        },
         {
           accessorKey: "putOption.LTP",
           header: "LTP",
@@ -76,25 +95,14 @@ const OptionChainingPage = () => {
     },
   ]);
 
-  useEffect(
-    () => async () => {
-      const response = await fetch("staticData.json");
-      const data = await response.json();
-      setTimeout(() => {
-        setData(data);
-      }, 1000);
-    },
-    [setTimeout]
-  );
+  if(loading) {
+    return <p>Loading... </p>
+  }
 
   return (
     <div className="OptionChaining bg-[#FBFBFB] px-[88px]">
       <IndiciesOverview />
-      {!data.length ? (
-        "Loading..."
-      ) : (
-        <OptionChainTable data={data} columns={columns} />
-      )}
+      {data && <OptionChainTable data={data} columns={columns} />}
     </div>
   );
 };

@@ -7,7 +7,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -15,7 +17,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -26,7 +30,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -34,7 +40,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -45,7 +53,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -53,7 +63,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -64,7 +76,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -72,7 +86,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -83,7 +99,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -91,7 +109,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -102,7 +122,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -110,7 +132,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -121,7 +145,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -129,7 +155,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -140,7 +168,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -148,7 +178,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -159,7 +191,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -167,7 +201,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -178,7 +214,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -186,7 +224,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -197,7 +237,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -205,7 +247,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -216,7 +260,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -224,7 +270,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         },
         {
@@ -235,7 +283,9 @@
                 "OI": "35K",
                 "Volume": "1.25K",
                 "Chng%": "+123.5%",
-                "LTP": "1,245.3"   
+                "LTP": "1,245.3",
+                "Buy": true,
+                "Sell": true   
             },
             "putOption" : {
                 "OI Buildup": "Long unwiding",
@@ -243,7 +293,9 @@
                 "OI": "1.4K",
                 "Volume": "982",
                 "Chng%": "-44.2%",
-                "LTP": "15.3"   
+                "LTP": "15.3",
+                "Buy": true,
+                "Sell": true   
             }
         }
     ]

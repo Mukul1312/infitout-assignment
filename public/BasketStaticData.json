@@ -1,0 +1,35 @@
+[
+    {
+        "Instrument": "NIFTY 18MAY23 18200 CE",
+        "B/S": "Buy",
+        "Type": "MIS",
+        "Qty": "50",
+        "Price": "120.5",
+        "Trigger": 0,
+        "SL": 0,
+        "Tgt": 0,
+        "delete": false
+    },
+    {
+        "Instrument": "NIFTY 18MAY23 18200 CE",
+        "B/S": "Buy",
+        "Type": "MIS",
+        "Qty": "50",
+        "Price": "98.1",
+        "Trigger": 0,
+        "SL": 0,
+        "Tgt": 0,
+        "delete": false
+    },
+    {
+        "Instrument": "NIFTY 18MAY23 18200 CE",
+        "B/S": "Buy",
+        "Type": "MIS",
+        "Qty": "50",
+        "Price": "80.3",
+        "Trigger": 0,
+        "SL": 0,
+        "Tgt": 0,
+        "delete": false
+    }
+]
