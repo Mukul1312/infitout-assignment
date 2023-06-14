@@ -96,7 +96,7 @@ const OptionChainingPage = () => {
   ]);
 
   if(loading) {
-    return <p>Loading... </p>
+    return <p className="flex justify-center items-center">Loading... </p>
   }
 
   return (

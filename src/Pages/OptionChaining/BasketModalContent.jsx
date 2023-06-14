@@ -31,49 +31,56 @@ const BasketModalContent = ({ handleClose }) => {
 
     const columns = React.useMemo(() => [
       {
-        accessorkey: "Instrument",
+        accessorKey: "Instrument",
         header: "Instrument",
-        id: "Instrument",
+        // id: "Instrument",
       },
       {
-        accessorkey: "B/S",
+        accessorKey: "B/S",
         header: "B/S",
-        id: "B/S",
+        cell: props => <img className="inline" src={props.getValue().includes("Buy") ? "BuyBlue.png"  : "SellPink.png"} />,
       },
       {
-        accessorkey: "Type",
+        accessorKey: "Type",
         header: "Type",
-        id: "Type",
+        cell: props => <img className="inline" src={props.getValue().includes("MIS") ? "MIS.png"  : "NRML.png"} />,
+        // id: "Type",
       },
       {
-        accessorkey: "Qty",
+        accessorKey: "Qty",
         header: "Qty",
-        id: "Qty",
+        cell: props => <input placeholder={props.getValue()} type="number" className="placeholder:text-black placeholder:font-[500] w-[60px] h-[20px] border-[1px] border-[#D9D9D9]" />
+        // id: "Qty",
       },
       {
-        accessorkey: "Price",
+        accessorKey: "Price",
         header: "Price",
-        id: "Price",
+        cell: props => <input placeholder={props.getValue()} type="number" className="placeholder:text-black placeholder:font-[500] w-[60px] h-[20px] border-[1px] border-[#D9D9D9]" />
+
+        // id: "Price",
       },
       {
-        accessorkey: "Trigger",
+        accessorKey: "Trigger",
         header: "Trigger",
-        id: "Trigger",
+        cell: <input type="number"  className="w-[60px] h-[20px] border-[1px] border-[#D9D9D9] " />
+        // id: "Trigger",
       },
       {
-        accessorkey: "SL",
-        header: "SL",
-        id: "SL",
+        accessorKey: "SL",
+        header: "",
+        cell: <img className="inline" src="SL.png" />
+        // id: "SL",
       },
       {
-        accessorkey: "Tgt",
-        header: "Tgt",
-        id: "Tgt",
+        accessorKey: "Tgt",
+        header: "",
+        cell: <img className="inline" src="Tgt.png" />
+        // id: "Tgt",
       },
       {
-        accessorkey: "delete",
-        header: "delete",
-        id: "delete",
+        accessorKey: "delete",
+        header: "",
+        cell: <img className="inline" src="Delete.png" />
       }
     ])
     
@@ -95,7 +102,7 @@ const BasketModalContent = ({ handleClose }) => {
         ))}
       </div>
       <div className="h-[260px]">
-        {loading ? <p>Loading...</p> : <BasketTable columns={columns} data={data} />}
+        {loading ? <p className="flex justify-center items-center">Loading...</p> : <BasketTable columns={columns} data={data} />}
       </div>
       <div className="flex items-center h-[64px] border-t-[1px] border-[#D3D3D3]">
         <div className="ms-[20px]">
